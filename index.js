@@ -38,8 +38,8 @@ class Slider {
   createArrows() { // create arrows
     this.btnPrev = document.createElement('img');
     this.btnNext = document.createElement('img');
-    this.btnPrev.src = '../assets/icons/icons-arrow.png';
-    this.btnNext.src = '../assets/icons/icons-arrow.png';
+    this.btnPrev.src = './assets/icons/icons-arrow.png';
+    this.btnNext.src = './assets/icons/icons-arrow.png';
     this.btnPrev.className = 'prevBtn';
     this.btnNext.className = 'nextBtn';
     this.element.append(this.btnPrev);
